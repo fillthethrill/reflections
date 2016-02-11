@@ -12,4 +12,28 @@ It creates a .git folder to store all the meta data and revisions of the files i
 
 \b How is the staging area different from the working directory and the repository? What value do you think it offers?
 \b0 \
-The staging area is where you move files that you wish to add to a repository from a working directory. It is an intermediate step which allows you to control what/how is moved to the repository as well as add pertinent messages to the commits.}
+The staging area is where you move files that you wish to add to a repository from a working directory. It is an intermediate step which allows you to control what/how is moved to the repository as well as add pertinent messages to the commits.\
+
+\b How can you use the staging area to make sure you have one commit per logical change?
+\b0 \
+You can compare the file(s) in the staging area to those in the working directory using git diff and see the differences. Then also compare those in the staging area to files in the repository by using git diff \'97staged. This will allow you to closely monitor the changes being made.\
+\pard\pardeftab720\sl476\partightenfactor0
+
+\b \cf2 What are some situations when branches would be helpful in keeping your history organized? How would branches help?\
+\
+
+\b0 Branches would be helpful when trying to add in experimental features to code or develop spinoffs, or different versions. It allows you to separate different variations of the same code you\'92re working on.\
+\
+\pard\pardeftab720\sl476\sa300\partightenfactor0
+
+\b \cf2 How do the diagrams help you visualize the branch structure?
+\b0 \
+Helps you understand what is reachable and what is not based on which branch you are on and where the master branch is relative to that.\
+
+\b What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+\b0 \
+Merging two branches together makes the additions (or subtractions) from one branch merge into the master branch, thus combining the features.\
+
+\b What are the pros and cons of Git\'92s automatic merging vs. always doing merges manually?
+\b0 \
+Automatic merging prevents the user from having to approve of every little change that was made even if they are very minute and inconsequential. Manual merges allow the user to determine which is the better version of a commit that needs to be used in the merged branch.}
