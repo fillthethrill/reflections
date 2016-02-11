@@ -1,0 +1,45 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf130
+{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;\red36\green36\blue36;\red36\green36\blue36;\red255\green255\blue255;
+}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl476\partightenfactor0
+
+\f0\b\fs28 \cf2 \expnd0\expndtw0\kerning0
+How did viewing a diff between two versions of a file help you see the bug that was introduced?\
+\
+
+\b0 It went line by line and showed me exactly where the difference was. Much easier than doing it visually.\
+\
+
+\b How could having easy access to the entire history of a file make you a more efficient programmer in the long term?\
+\
+
+\b0 Being able to reference old work which may not be immediately useful, but that could be at a later date. Also, being able to review changes if bugs happen, you can see what was done differently.\
+\
+
+\b What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?\
+\
+
+\b0 Pros of manual commits are that you have the power to commit only when you deem necessary and not necessarily on the most granular level. However, there is also room for human error. This is where Google Docs may present more of an advantage, providing you with all the changes you\'92ve made automatically, so you don\'92t need to worry about when to commit changes.\
+\
+
+\b Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?\
+\
+
+\b0 Because projects on Google Docs are more likely to only involve a single file, wheres if you\'92re using Git you probably want to have take snapshots of multiple files together as you are probably using them simultaneously and are all inter-dependent. \
+\
+\pard\pardeftab720\sl476\partightenfactor0
+
+\b \cf3 \cb4 \outl0\strokewidth0 \strokec3 How can you use the commands git log and git diff to view the history of files?\
+\
+
+\b0 git log allows you to see the revision history for the repository with all the annotations and git diff allows you to identify the specific differences between any two revisions\
+\
+\pard\pardeftab720\sl476\sa300\partightenfactor0
+
+\b \cf3 How might using version control make you more confident to make changes that could break something?
+\b0 \
+You would be able to make changes and test them right away without being afraid of losing any progress. This assuming you commit appropriately\
+}
