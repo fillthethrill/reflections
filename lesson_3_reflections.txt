@@ -21,3 +21,8 @@ So that you are working on the most up to date verison of your code locally.
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 It would be much harder. You would have to use DropBox or some form of google docs file sharing, but wouldn't necessarily have the revision control.
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+IF you aren't sure whether you want the chagnes to be committed permanently. 
